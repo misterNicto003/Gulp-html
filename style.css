@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+}
+
+ul li {
+  list-style: none;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background: #1f2937;
+  padding-bottom: 80px;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 70px;
+  color: #ffff;
+}
+
+.header_logo_list {
+  display: flex;
+  gap: 15px;
+
+  color: #ffff;
+}
+
+.header_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_main_text {
+  width: 430px;
+}
+.header_main_text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.header_main_text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.btn {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 3px 30px;
+  border-radius: 7px;
+  border: 1px solid transparent;
+  margin-top: 5px;
+}
+
+.img img {
+  width: 5 00px;
+  height: 200px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.main_logo {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.main_card {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.main_card_img {
+  width: 150px;
+}
+
+.main_card_img img {
+  border: 2px solid #3882f6;
+
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.main {
+  background: #e5e7eb;
+  margin: 0 auto;
+}
+
+.main_QuoteText {
+    margin: 0 auto;
+
+    width: 1250px;
+  font-size: 36px;
+  color: #1f2937;
+
+  padding: 100px 250px;
+}
+
+footer {
+
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+
+.footer_link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+border-radius: 8px;
+  padding: 50px 100px;
+  background: #3882f6;
+
+  border: 1px solid;
+  color: #f9faf8;
+}
+
+.footer_link_btn{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 3px 30px;
+    border-radius: 7px;
+    border: 1px solid #fff;
+}
