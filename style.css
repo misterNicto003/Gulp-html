@@ -10,8 +10,14 @@ body {
   font-family: Roboto;
 }
 
-ul li {
+ul li  a {
   list-style: none;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+color: #fff;
 }
 
 .container {
